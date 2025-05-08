@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Registration Forms in HTML-->
+    <fieldset style="border: 2px solid black; width : 25%; height: 75%;" >
+        <legend><h2>Event Registrartion</h2></legend>
+
+        <label for="Name"><b>Name : </b></label>
+        <input type="text" id ="Name" placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="email"><b>Email : </b></label>
+        <input type="text" id ="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="phone"><b>Phone No. : </b></label>
+        <input type="phone" id="phone" placeholder="Enter your phone no." required>
+        <br><br>
+
+        <label for="Occupation"><b>Occupation : </b></label>
+        <select id="Occupation" required>
+            <option value="Other">Other</option>
+            <option value="Student">Student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Engineer">Engineer</option>
+            <option value="Doctor">Doctor</option>
+        </select>   
+        <br><br>
+
+        <label for="Toics"><b>Topic of Interest : </b></label><br>
+        <input type="checkbox" id="Topics" value="HTML"> HTML
+        <input type="checkbox" id="Topics" value="CSS"> CSS
+        <input type="checkbox" id="Topics" value="Javascript"> Javascript
+
+        <br><br>
+
+        <label for="Comment"><b>Comment : </b></label> <br>
+        <textarea name="Comment" id="Comment" cols="50" role="50">Write your comments...</textarea>
+        <br>
+
+        <div style="text-align: right; padding: auto; margin: auto;">
+            <button type="submit">Register</button>
+        </div>
+    </fieldset>
+
+    <br><br><br><br>
+
+    <!--Job Application Form in HTML-->
+    <fieldset style="border: 2px solid black; width : 25%; height: 75%;" >
+        <legend><h2>Job Application Form</h2></legend>
+
+        <label for="Name"><b>Name : </b></label>
+        <input type="text" id ="Name" placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="email"><b>Email : </b></label>
+        <input type="text" id ="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="phone"><b>Phone No. : </b></label>
+        <input type="phone" id="phone" placeholder="Enter your phone no." required>
+        <br><br>
+
+        <label for="Resume"><b>Resume : </b></label>
+        <input type="file" id="Resume" placeholder="Upload your resume" required>
+        <br><br>
+
+        <label for="Experience"><b>Experience : </b></label>
+        <select name="yaer" id="year">
+            <option value="0">0</option>
+            <option value="1">1</option>    
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+        <br><br>
+
+        <label for="Skills"><b>Skills : </b></label><br>
+        <input type="checkbox" id="Skills" value="HTML"> HTML
+        <input type="checkbox" id="Skills" value="CSS"> CSS
+        <input type="checkbox" id="Skills" value="Javascript"> Javascript
+        <input type="checkbox" id="Skills" value="Java"> Java
+        <br><br>
+
+        <label for="Education"><b>Higher Education : </b></label>
+        <select id="Education" required>
+            <option value="Other">Other</option>
+            <option value="Bachelors">Bachelors</option>
+            <option value="Masters">Masters</option>
+            <option value="PhD">PhD</option>
+        </select>
+        <br><br>
+
+        <label for="Type"><b>Job Availability type :</b></label><br>
+        <input type="radio" name="Type" id="Type" value="Full Time"> Full Time
+        <input type="radio" name="Type" id="Type" value="Part Time"> Part Time
+        <input type="radio" name="Type" id="Type" value="Internship"> Internship
+        <br><br>
+
+        <label for="Comment"><b>Comment : </b></label> <br>
+        <textarea name="Comment" id="Comment" cols="50" role="50">Write your comments...</textarea>
+        <br>
+
+        <div style="text-align:right;">
+            <button type="submit">Apply</button>
+        </div>
+    </fieldset>
+</body>
+</html>

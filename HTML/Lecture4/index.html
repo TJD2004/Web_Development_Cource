@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Forms in HTML-->
+    <header>
+        <h2>Basic HTML Forms</h2>
+    </header>
+
+    <div style="border: 1px solid black; padding: 5px; margin: 5px; width: 25%;">
+        <h3>1.</h3>
+        <form>
+            <lable for="email">Login Id :</lable>  
+            <input type="text" id="email" placeholder="Enter your email">  
+    
+            <br><br>
+    
+            <lable for="password">Password :</lable>
+            <input type="password" id="password" placeholder="Enter password" >
+    
+            <br><br>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <fieldset style="border: 1px solid black; width: 25%;">
+
+        <legend>HTML Form dummy</legend>
+        <h3>2.</h3>
+        <form>
+            <!--Input Types-->
+            <label for="date">Date of Birth :</label>
+            <input type="date" id="date" placeholder="Enter date of birth" >
+
+            <br><br>
+
+            <label for="name">Enter your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" >
+
+            <br><br>
+
+            <label for="age">Enter your Age</label>
+            <input type="number" id="age" placeholder="Enter your age" >
+
+            <br><br>
+
+            <label for="phone">Enter your Phone Number</label>
+            <input type="phone" id="phone" placeholder="Enter your phone no." >
+
+            <br><br>
+
+            <label for="terms">Conditions</label>
+            <input type="checkbox" id="terms" value="terms"> I agree to the terms and conditions
+
+            <br><br>
+
+            <label for="fileselection">Uplode : </label>
+            <input type="file" name="filesection" id="fileselection" placeholder="Upload file" >
+
+            <br><br>
+
+            <label for="radio1">Enter Your Gender</label>
+            <input type="radio" id="radio1" >
+            <label for="radio1">Male</label>
+            <input type="radio" id="radio1">
+            <label for="radio1">Female</label>
+
+            <br><br>
+
+            <label for="dishes">Menu</label><br>
+            <select name="dishes" id="selector1">
+                <option value="maggi">Maggi</option>
+                <option value="pizza">Pizza</option>
+                <option value="burger">Burger</option>
+                <option value="pasta">Pasta</option>
+            </select>
+
+            <br><br>
+
+            <label for="textArea1">Write Here : </label> <br>
+            <textarea name="textArea1" id="textArea1" cols="20" rows="5" placeholder="enter here" style="border: 1px solid blue;"></textarea>
+
+            <br><br>
+
+            <input type="image" name="image" src="https://www.w3schools.com/images/w3schools_green.jpg" alt="Submit" width="100px" height="100px">
+
+            <!--Detail tag-->
+            <h3>Frequently Asked Questions : </h3>
+            <details>
+                <summary>What is your favourite food?</summary>
+                <p>My favourite food is Pav Bahji.</p>
+            </details>
+            
+            <details>
+                <summary>Where are you from?</summary>
+                <p>I am from INDIA.</p>
+             </details>
+              
+            <details>
+                <summary>What do you do for a living?</summary>
+                <p>I am a software developer</p>
+            </details>
+              
+             <details>
+                <summary>What is your favorite hobby?</summary>
+                <p>My favorite hobby is watching ANIME.</p>
+             </details>
+              
+            <details>
+                <summary>What is your favorite book?</summary>
+                <p>My favorite book is "WILL OF ETERNAL"</p>
+            </details>
+        </form>
+    </fieldset>
+</body>
+</html>
