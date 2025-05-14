@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#heading {
+    color: rgb(6, 103, 141);
+    text-decoration: underline;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid rgb(255, 0, 98);
+    border-radius: 50%;
+    background-color: rgba(255, 0, 98, 0.301);
+    width: 250px;
+    height: 50px;
+}
+
+.p1 {
+    color: rgb(129, 6, 6);
+    /* text-decoration: underline; */
+    padding: 20px 30px 30px 10px;
+    border: 2px solid rgb(119, 0, 255);
+    border-radius: 20px;
+    background-color: rgba(22, 161, 216, 0.301);
+    width: 500px;
+    height: 50px;
+    margin: 10% 20% 5% 10%;
+}
+
+.p2 {
+    color: rgb(26, 23, 187);
+    /* text-decoration: underline; */
+    padding: 10px 10px 10px 10px;
+    border: 2px solid rgb(119, 0, 255);
+    border-radius: 20px;
+    background-color: rgba(12, 156, 55, 0.301);
+    width: 700px;
+    height: 70px; 
+}
+
+.p3 {
+    color: rgb(129, 6, 6);
+    /* text-decoration: underline; */
+    padding: 10px 10px 10px 10px;
+    border: 2px solid rgb(119, 0, 255);
+    border-radius: 20px;
+    background-color: rgba(230, 84, 116, 0.301);
+    width: 500px;
+    height: 200px;
+}
+
+.p4 {
+    color: rgb(129, 6, 6);
+    /* text-decoration: underline; */
+    padding: 10px 10px 10px 10px;
+    border: 2px solid rgb(119, 0, 255);
+    border-radius: 20px;
+    background-color: rgba(22, 161, 216, 0.301);
+    width: 625px;
+    height: 300px;
+}

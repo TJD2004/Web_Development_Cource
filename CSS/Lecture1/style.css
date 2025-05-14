@@ -1,0 +1,18 @@
+/* External CSS */
+.p6 {
+    color: rgb(80, 10, 10);
+    background-color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p4 {
+    color: rgba(55, 0, 255, 0.904);
+    background-color: cornflowerblue;
+    font-family: cursive;
+}
+
+#p5 {
+    color: blue;
+    background-color: burlywood;
+    text-align: center;
+}
