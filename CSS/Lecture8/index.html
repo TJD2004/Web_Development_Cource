@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media-Query in CSS</title>\
+
+    <style>
+
+        h2 {
+            color: rgb(6, 103, 141);
+            text-decoration: underline;
+            text-align: center;
+            padding: 10px 10px 10px 10px;
+            border: 2px solid rgb(255, 0, 98);
+            border-radius: 50%;
+            background-color: rgba(255, 0, 98, 0.301);
+            width: 250px;
+            height: 50px;
+            margin-left: 30%;
+        }
+
+        .box {
+            border: 2px solid darkblue;
+            height: 850px;
+            width: 850px;
+            display: flex;
+            flex-wrap: wrap;
+            overflow: auto;
+        }
+
+        .boxs {
+            height: 140px;
+            width: 140px;
+            border: 1px solid black;
+        }
+
+        @media (max-width: 300px) { /* width <= 300 */
+            .box {
+                background-color: rgb(144, 216, 238);
+                flex-direction: row-reverse;
+                justify-content: space-evenly;
+            }
+        }
+
+        @media ((min-width: 300px) and (max-width: 500px)) {  /* width >= 300  and width <= 500px */
+            .box {
+                background-color: lightcoral;
+                flex-direction: column-reverse;
+                justify-content: space-evenly;
+            }
+        }
+
+        @media ((min-width: 500px) and (max-width: 700px)) { /* width >= 500  and width <= 700px */
+            .box {
+                background-color: lightgreen;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+        }
+
+        @media (min-width: 700px) {  /* width >= 700px */
+            .box {
+                background-color: rgb(212, 120, 235);
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- MEDIA-QUERY -->
+    <h2>MEDIA-QUERY</h2>
+    <div class="box">
+        <div class="boxs"><img class="boxs" src="p1.jpeg" alt="Pokemon"></div>
+        <div class="boxs"><img class="boxs" src="p2.jpeg" alt="Pokemon"></div>
+        <div class="boxs"><img class="boxs" src="p3.jpeg" alt="Pokemon"></div>
+        <div class="boxs"><img class="boxs" src="p4.jpeg" alt="Pokemon"></div>
+    </div>
+</body>
+</html>

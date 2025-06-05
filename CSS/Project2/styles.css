@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 97%;
+}
+
+.header {
+    height: 55px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header p {
+    width: 50%;
+    height: 50px;
+    margin: auto; 
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.main_content {
+    width: 65%;
+    height: 900px;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.9rem;
+}
+
+.card_container {
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card_img_container {
+    height: 273px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    justify-self: stretch;
+}
+
+.card_img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card_title {
+    color: rgb(70, 63, 63);
+    margin: 0.4rem;
+}
+
+.card_title:hover {
+    color: blue;
+    font-style: normal;
+}
+
+.cardDescription_container{
+    margin-left: 5px;
+}
+
+.cardDescription {
+    font-style: oblique;
+    margin: 0.3rem;
+}
+
+.cardFooter_container {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.card_Author {
+    margin: 3px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.author_avatar_container {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    align-content: center;
+    justify-content: center;
+}
+
+.author_avatar{
+    height: 100%;
+    width: 100%;
+}
+
+.author_info_container {
+    margin-left:5px ;
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.card_tag_container {
+    padding: 3px;
+    margin-left: 25px;
+    justify-self: end;
+    align-self: center;
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    border-radius: 20px;
+}
+
+.author_name {
+    color: rgb(0, 0, 255);
+    font-weight: bold;
+}
+
+.date {
+    color: rgb(88, 85, 85);
+}
